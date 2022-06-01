@@ -2,26 +2,20 @@
   <div id="app">
     <TheHeader />
       <main>
-        <TheSearch />
         <TheList />
       </main>
-    <TheFooter />
   </div>
 </template>
 
 <script>
 import TheHeader from './components/TheHeader.vue'
-import TheFooter from './components/TheFooter.vue'
-import TheSearch from './components/TheSearch.vue'
 import TheList from './components/TheList.vue'
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheSearch,
     TheList,
-    TheFooter
   }
 }
 </script>
